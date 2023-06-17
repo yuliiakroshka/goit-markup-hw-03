@@ -53,6 +53,9 @@ img {
   display: block;
   max-width: 100%;
 }
+div {
+  display: block;
+}
 .container {
   width: 1440px;
   margin: 0 auto;
