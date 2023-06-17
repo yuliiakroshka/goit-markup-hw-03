@@ -112,6 +112,11 @@ address {
 
 /*Section 1*/
 
+.box {
+  max-width: 496px;
+  margin: 0 auto;
+  text-align: center;
+}
 .section-hero {
   background-color: #2e2f42;
   width: 1440px;
