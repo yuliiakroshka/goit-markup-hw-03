@@ -75,6 +75,7 @@ div {
 }
 .list {
   font-weight: 500;
+  display: flex;
 }
 .link:hover,
 .link:focus {
