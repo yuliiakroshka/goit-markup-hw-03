@@ -75,7 +75,6 @@ div {
 }
 .list {
   font-weight: 500;
-  display: flex;
 }
 .link:hover,
 .link:focus {
@@ -101,6 +100,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: flex;
 }
 .span-studio {
   color: #2e2f42;
