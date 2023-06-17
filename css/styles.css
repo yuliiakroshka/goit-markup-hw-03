@@ -103,6 +103,7 @@ address {
 .header {
   width: 1440px;
   height: auto;
+  padding-bottom: 72px;
 }
 
 /*Section 1*/
@@ -111,7 +112,7 @@ address {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-  top: 72px;
+  margin-bottom: 120px;
 }
 .hero-title {
   font-weight: 700;
@@ -138,12 +139,20 @@ address {
 
 /*Section 2*/
 
+.section-benefits {
+  margin-bottom: 120px;
+}
 .title-benefits {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #454425;
+}
+
+/*Section 3*/
+.section-we-are {
+  margin-bottom: 120px;
 }
 
 /*Section 4*/
