@@ -114,6 +114,8 @@ address {
 
 .box {
   max-width: 496px;
+  padding-top: 188px;
+  padding-bottom: 292px;
   margin: 0 auto;
   text-align: center;
 }
