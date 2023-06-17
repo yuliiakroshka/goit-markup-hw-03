@@ -53,6 +53,10 @@ img {
   display: block;
   max-width: 100%;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
 .thumb {
   border-radius: 0%;
   overflow: hidden;
