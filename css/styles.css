@@ -3,6 +3,11 @@
   --primary-background-color: #ffffff;
   --primary-color: #434455;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -12,10 +17,28 @@ body {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 ul {
   list-style: none;
   font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 h3 {
   font-size: 20px;
@@ -29,6 +52,14 @@ p {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.thumb {
+  border-radius: 0%;
+  overflow: hidden;
 }
 .link {
   text-decoration: none;
