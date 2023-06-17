@@ -100,6 +100,10 @@ address {
 .span-studio {
   color: #2e2f42;
 }
+.header {
+  width: 1440px;
+  height: auto;
+}
 
 /*Section 1*/
 
