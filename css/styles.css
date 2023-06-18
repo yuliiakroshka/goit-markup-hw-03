@@ -180,6 +180,7 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #454425;
+  content-visibility: hidden;
 }
 
 .title {
@@ -194,7 +195,7 @@ nav {
   padding-bottom: 120px;
 }
 .we-are-item {
-  width: 48px;
+  align-items: center;
 }
 
 /*Section 4*/
