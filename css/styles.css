@@ -33,6 +33,7 @@ ul {
   list-style: none;
   font-weight: 500;
   margin: 0;
+  display: flex;
 }
 h3 {
   font-size: 20px;
@@ -57,7 +58,7 @@ div {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
   display: flex;
 }
 .thumb {
@@ -114,7 +115,6 @@ nav {
 }
 .span-studio {
   color: #2e2f42;
-  margin-right: 76px;
 }
 .header {
   width: 1440px;
@@ -122,9 +122,11 @@ nav {
   padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
-.menu {
+.link-logo {
+  margin-right: 76px;
+}
+.container.nav {
   display: flex;
-  gap: 40px;
 }
 /*Section 1*/
 
@@ -167,7 +169,7 @@ nav {
 /*Section 2*/
 
 .section-benefits {
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 .title-benefits {
   font-size: 36px;
@@ -175,6 +177,15 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #454425;
+}
+.section-benefits h2 {
+  visually-hidden;
+}
+.title {
+  margin-bottom: 8px;
+}
+.text-benefits {
+  width: 100%;
 }
 
 /*Section 3*/
