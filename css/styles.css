@@ -75,6 +75,7 @@ div {
 }
 .list {
   font-weight: 500;
+  gap: 24px;
 }
 .link:hover,
 .link:focus {
@@ -111,7 +112,9 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  padding: 24px 0;
+ }
+.header.link {
+ padding: 24px 0;
 }
 .span-studio {
   color: #2e2f42;
@@ -185,14 +188,13 @@ nav {
   margin-bottom: 8px;
 }
 .text-benefits {
-  width: 100%;
+  width: 72px;
 }
 
 /*Section 3*/
 .section-we-are {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
-
 /*Section 4*/
 
 .title-team,
@@ -203,9 +205,11 @@ nav {
   text-transform: capitalize;
   color: #2e2f42;
   letter-spacing: 0.02em;
-}
+  padding-bottom: 72px;
+  }
 .section-team {
   background-color: #f4f4fd;
+  padding-bottom: 120px;
 }
 .section-team.list {
   background-color: #ffffff;
@@ -216,6 +220,11 @@ nav {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.text-team {
+  text-align: center;
 }
 .text-team {
   font-size: 16px;
@@ -231,12 +240,16 @@ nav {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-
+.footer.link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /*Portfolio 1*/
 
 .buttons {
