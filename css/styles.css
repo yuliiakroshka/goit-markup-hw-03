@@ -77,6 +77,8 @@ div {
 .list {
   font-weight: 500;
   gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .link:hover,
 .link:focus {
