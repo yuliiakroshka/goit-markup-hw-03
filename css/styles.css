@@ -339,8 +339,8 @@ nav {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.our-works.row-items {
-  gap: 48px;
+.list-row {
+  row-gap: 48px;
 }
 .our-works.container {
   display: flex;
