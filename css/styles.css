@@ -102,6 +102,10 @@ address {
   color: #4d5ae5;
   display: flex;
 }
+.header .container {
+  display: flex;
+  flex-direction: row;
+}
 .span-studio {
   color: #2e2f42;
 }
