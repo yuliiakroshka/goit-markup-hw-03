@@ -110,6 +110,7 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  padding: 24px 0;
 }
 .span-studio {
   color: #2e2f42;
@@ -118,11 +119,13 @@ nav {
 .header {
   width: 1440px;
   height: auto;
-  padding-bottom: 72px;
+  padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
-. header.container {
+.menu {
+  display: flex;
+  gap: 40px;
 }
-
 /*Section 1*/
 
 .section-hero {
