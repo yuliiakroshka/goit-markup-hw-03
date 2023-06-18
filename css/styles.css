@@ -177,6 +177,9 @@ nav {
 .section-benefits {
   padding: 120px 0;
 }
+.section-benefits.container {
+  display: flex;
+}
 .title-benefits {
   font-size: 36px;
   font-weight: 500;
