@@ -186,8 +186,8 @@ nav {
 .title {
   margin-bottom: 8px;
 }
-.benefits-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+.hidden {
+  visibility: hidden;
 }
 
 /*Section 3*/
@@ -244,7 +244,7 @@ nav {
 .box-team {
   padding: 32px 16px;
 }
-/*Footer 1*/
+/*Footer*/
 
 .footer {
   background-color: #2e2f42;
@@ -258,7 +258,7 @@ nav {
   display: inline-block;
   margin-bottom: 16px;
 }
-/*Portfolio 1*/
+/*Portfolio*/
 
 .buttons {
   font-family: "Roboto", sans-serif;
@@ -330,4 +330,8 @@ nav {
 }
 .our-works.row-items {
   row-gap: 48px;
+}
+.row-items {
+  gap: 48px;
+  width: 360;
 }
