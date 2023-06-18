@@ -113,7 +113,7 @@ nav {
   flex-direction: row;
   gap: 40px;
  }
-.header.link {
+.header a {
  padding: 24px 0;
 }
 .span-studio {
@@ -188,13 +188,14 @@ nav {
   margin-bottom: 8px;
 }
 .text-benefits {
-  width: 72px;
+  width: 100% - 72px;
 }
 
 /*Section 3*/
 .section-we-are {
   padding-bottom: 120px;
 }
+
 /*Section 4*/
 
 .title-team,
@@ -205,11 +206,11 @@ nav {
   text-transform: capitalize;
   color: #2e2f42;
   letter-spacing: 0.02em;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   }
 .section-team {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .section-team.list {
   background-color: #ffffff;
@@ -231,11 +232,16 @@ nav {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
+  text-align: center;
 }
 .list-item {
   background-color: #ffffff;
+  width: 72px;
+  border-radius: 0px 0px 4px 4px;
 }
-
+.box-team {
+  padding: 32px 16px;
+}
 /*Footer 1*/
 
 .footer {
