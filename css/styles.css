@@ -182,7 +182,6 @@ nav {
   color: #454425;
   content-visibility: hidden;
 }
-
 .title {
   margin-bottom: 8px;
 }
@@ -197,6 +196,9 @@ nav {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.benefits-item {
+  width: calc((100%-72px) / 4);
 }
 
 /*Section 3*/
@@ -338,9 +340,5 @@ nav {
   border-top: none;
 }
 .our-works.row-items {
-  row-gap: 48px;
-}
-.row-items {
   gap: 48px;
-  width: 360;
 }
