@@ -180,6 +180,7 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #454425;
+  visibility:hidden;
 }
 .section-benefits h2 {
   visually-hidden;
@@ -188,7 +189,7 @@ nav {
   margin-bottom: 8px;
 }
 .benefits-item {
-  width: calc (100% - 72px)
+ width: calc((100% - 72px) / 4); 
 }
 
 /*Section 3*/
