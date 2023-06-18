@@ -74,8 +74,8 @@ div {
   letter-spacing: 0.02em;
 }
 .list {
-  font-weight: 500;
-  gap: 24px;
+    font-weight: 500;
+    gap: 24px;
 }
 .link:hover,
 .link:focus {
@@ -188,7 +188,7 @@ nav {
   margin-bottom: 8px;
 }
 .benefits-item {
-  width: 72px;
+  width: calc (100% - 72px)
 }
 
 /*Section 3*/
@@ -280,11 +280,15 @@ nav {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc; 
+  border-radius: 4px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .list-row {
   list-style: none;
@@ -296,6 +300,7 @@ nav {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .span-studio-light {
   color: #f4f4fd;
@@ -313,5 +318,15 @@ nav {
   color: #4d5ae5;
 }
 .our-works {
-  padding: 96px 120px;
+  padding: 96px 0 120px 0;
+}
+.our-works.list {
+  justify-content: center;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+}
+.our-works.div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
