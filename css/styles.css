@@ -198,7 +198,7 @@ nav {
   overflow: hidden;
 }
 .section-benefits li {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 /*Section 3*/
@@ -341,4 +341,8 @@ nav {
 }
 .our-works.row-items {
   gap: 48px;
+}
+.our-works.container {
+  display: flex;
+  justify-content: space-between;
 }
