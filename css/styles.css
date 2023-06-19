@@ -338,7 +338,7 @@ nav {
 .footer.studio {
   color: #f4f4fd;
 }
-.footer a {
+.footer > a {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -365,6 +365,5 @@ nav {
   justify-content: space-between;
 }
 .row-item {
-  padding-left: 0;
-  width: calc((100% - 48px) / 3);
+  width: 360px;
 }
