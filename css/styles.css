@@ -34,6 +34,7 @@ ul {
   font-weight: 500;
   margin: 0;
   padding-left: 0;
+  display: flex;
 }
 h3 {
   font-size: 20px;
@@ -104,6 +105,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 332px;
 }
 nav {
   display: flex;
@@ -359,5 +361,5 @@ nav {
 }
 .row-items {
   padding-left: 0;
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
