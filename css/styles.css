@@ -97,6 +97,8 @@ address {
 
 .address a {
   color: #434455;
+  margin-top: 24px;
+  margin-left: 332px;
 }
 .address.link {
   color: #434455;
@@ -171,6 +173,8 @@ nav {
   height: 56px;
   border: none;
   border-radius: 4px;
+  align-items: center;
+  padding-top: 48px;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -279,6 +283,7 @@ nav {
 }
 .footer a {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 /*Portfolio*/
