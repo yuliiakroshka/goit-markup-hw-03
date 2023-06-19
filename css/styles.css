@@ -57,6 +57,9 @@ img {
 div {
   display: block;
 }
+a {
+  display: inline-block;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -359,7 +362,7 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-.row-items {
+.row-item {
   padding-left: 0;
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
