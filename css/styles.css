@@ -214,6 +214,7 @@ nav {
 }
 .we-are-item {
   align-items: center;
+  width: calc((100% - 48px) / 3);
 }
 
 /*Section 4*/
@@ -276,6 +277,10 @@ nav {
   display: inline-block;
   margin-bottom: 16px;
 }
+.footer.link {
+  display: inline-block;
+}
+
 /*Portfolio*/
 
 .buttons {
@@ -309,6 +314,7 @@ nav {
 .list-row {
   list-style: none;
   text-decoration: none;
+  row-gap: 48px;
   column-gap: 24px;
 }
 .title-row {
@@ -347,10 +353,10 @@ nav {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.list-row {
-  row-gap: 48px;
-}
 .our-works.container {
   display: flex;
   justify-content: space-between;
+}
+.row-items {
+  width: calc((100% - 48px) / 3);
 }
