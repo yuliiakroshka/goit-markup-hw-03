@@ -98,7 +98,7 @@ address {
 .address a {
   color: #434455;
   margin-top: 24px;
-  margin-left: 332px;
+  padding-left: 332px;
 }
 .address.link {
   color: #434455;
@@ -236,6 +236,7 @@ nav {
   color: #2e2f42;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
+  align-items: center;
 }
 .section-team {
   background-color: #f4f4fd;
