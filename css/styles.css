@@ -273,11 +273,11 @@ nav {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.footer a {
+.link-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
-.footer.link {
+.footer.container {
   display: inline-block;
 }
 
@@ -358,5 +358,6 @@ nav {
   justify-content: space-between;
 }
 .row-items {
+  padding-left: 0;
   width: calc((100% - 48px) / 3);
 }
