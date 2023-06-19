@@ -34,6 +34,7 @@ ul {
   font-weight: 500;
   margin: 0;
   display: flex;
+  padding-left: 0;
 }
 h3 {
   font-size: 20px;
@@ -308,6 +309,7 @@ nav {
 .list-row {
   list-style: none;
   text-decoration: none;
+  column-gap: 24px;
 }
 .title-row {
   font-weight: 500;
