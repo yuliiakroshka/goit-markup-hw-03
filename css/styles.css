@@ -33,7 +33,6 @@ ul {
   list-style: none;
   font-weight: 500;
   margin: 0;
-  display: flex;
   padding-left: 0;
 }
 h3 {
@@ -316,6 +315,7 @@ nav {
   text-decoration: none;
   row-gap: 48px;
   column-gap: 24px;
+  padding-left: 0;
 }
 .title-row {
   font-weight: 500;
