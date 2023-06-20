@@ -329,7 +329,7 @@ nav {
   list-style: none;
   text-decoration: none;
   row-gap: 48px;
-
+  column-gap: 24px;
   padding-left: 0;
 }
 .title-row {
@@ -372,10 +372,6 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-.row-item-first {
+.row-item {
   width: calc((100% - 48px) / 3);
-  margin-right: 24px;
-}
-.row-item-first:last-child {
-  margin-right: 0;
 }
