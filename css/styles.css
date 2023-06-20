@@ -84,7 +84,6 @@ a {
   gap: 24px;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 0;
 }
 .link:hover,
 .link:focus {
