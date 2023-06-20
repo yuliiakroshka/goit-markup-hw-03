@@ -65,7 +65,6 @@ a {
   margin: 0 auto;
   padding: 0 15px;
   flex-direction: row;
-  display: flex;
 }
 .thumb {
   border-radius: 0%;
@@ -92,6 +91,9 @@ a {
 }
 
 /*Header section*/
+.header-container {
+  display: flex;
+}
 address {
   font-style: normal;
 }
