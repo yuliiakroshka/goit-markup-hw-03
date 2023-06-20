@@ -93,6 +93,7 @@ a {
 /*Header section*/
 .header-container {
   display: flex;
+  width: 1158px;
 }
 address {
   font-style: normal;
