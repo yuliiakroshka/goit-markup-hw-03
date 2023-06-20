@@ -373,5 +373,5 @@ nav {
   justify-content: space-between;
 }
 .row-item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100%-48px) / 3);
 }
