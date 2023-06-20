@@ -84,6 +84,7 @@ a {
   gap: 24px;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 .link:hover,
 .link:focus {
@@ -373,5 +374,5 @@ nav {
   justify-content: space-between;
 }
 .row-item {
-  flex-basis: calc((1158px - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
