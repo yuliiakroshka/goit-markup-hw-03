@@ -122,10 +122,14 @@ nav {
   align-items: center;
   gap: 40px;
 }
+/*Header*/
+
 .header .list {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  align-items: center;
+  padding: 24px 0;
 }
 .header a {
   padding: 24px 0;
