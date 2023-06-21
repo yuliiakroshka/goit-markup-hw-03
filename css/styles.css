@@ -373,6 +373,9 @@ header.link-logo {
   display: flex;
   flex-wrap: wrap;
 }
+.row-item:nth-child(3n) {
+  margin-right: 0;
+}
 .row-item {
   width: calc((100% - 48px) / 3);
 }
