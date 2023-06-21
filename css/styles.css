@@ -101,6 +101,8 @@ address {
 
 .address a {
   color: #434455;
+  margin-top: 24px;
+  padding-left: 332px;
 }
 .address.link {
   color: #434455;
