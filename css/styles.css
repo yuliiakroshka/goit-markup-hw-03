@@ -121,12 +121,12 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  align-items: center;
 }
 .header .list {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  align-items: center;
   padding: 24px 0;
 }
 .header a {
