@@ -120,7 +120,6 @@ address {
 nav {
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 40px;
 }
 .header .list {
