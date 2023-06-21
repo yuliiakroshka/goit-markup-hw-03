@@ -93,7 +93,7 @@ a {
 /*Header section*/
 .header-container {
   width: 1158px;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
