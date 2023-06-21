@@ -329,9 +329,10 @@ nav {
 .list-row {
   list-style: none;
   text-decoration: none;
-
+  row-gap: 48px;
   column-gap: 24px;
   padding-left: 0;
+  padding-right: 0;
 }
 .title-row {
   font-weight: 500;
