@@ -138,12 +138,10 @@ nav {
   color: #2e2f42;
 }
 .header {
-  width: 1440px;
-  height: auto;
   padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
-header.link-logo {
+.link-logo {
   display: inline-block;
   margin-right: 76px;
 }
@@ -291,7 +289,7 @@ header.link-logo {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.footer.link-logo {
+.footer a {
   display: inline-block;
   margin-bottom: 16px;
 }
