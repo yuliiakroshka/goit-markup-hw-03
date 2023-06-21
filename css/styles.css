@@ -94,6 +94,7 @@ a {
 .header-container {
   width: 1158px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
