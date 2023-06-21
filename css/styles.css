@@ -94,6 +94,7 @@ a {
 .header-container {
   display: flex;
   width: 1158px;
+  align-items: center;
 }
 address {
   font-style: normal;
