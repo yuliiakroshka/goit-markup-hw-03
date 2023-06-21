@@ -96,6 +96,10 @@ a {
   display: flex;
   align-items: center;
 }
+header.list {
+  display: flex;
+  align-items: center;
+}
 address {
   font-style: normal;
 }
