@@ -291,7 +291,7 @@ header.link-logo {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.link-logo {
+.footer.link-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
