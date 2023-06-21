@@ -96,6 +96,9 @@ a {
   width: 1158px;
   align-items: center;
 }
+header.list {
+  display: flex;
+}
 address {
   font-style: normal;
 }
