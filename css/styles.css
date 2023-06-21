@@ -366,7 +366,6 @@ nav {
 }
 .our-works.container {
   display: flex;
-  justify-content: space-between;
 }
 .row-item {
   width: calc((100%-48px) / 3);
