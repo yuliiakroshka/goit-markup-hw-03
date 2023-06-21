@@ -358,7 +358,6 @@ nav {
 .our-works ul {
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 72px;
 }
 .our-works div {
   border: 1px solid #e7e9fc;
