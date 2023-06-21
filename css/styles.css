@@ -93,6 +93,8 @@ a {
 /*Header section*/
 .header-container {
   width: 1158px;
+  display: flex;
+  align-items: center;
 }
 header.list {
   display: flex;
