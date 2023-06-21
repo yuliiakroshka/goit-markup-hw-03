@@ -364,7 +364,7 @@ header.link-logo {
   justify-content: center;
   margin-bottom: 72px;
 }
-.div-row-text {
+.list-row div {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
