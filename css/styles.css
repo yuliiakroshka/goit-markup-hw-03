@@ -90,7 +90,7 @@ a {
 }
 
 /*Header section*/
-.header-container {
+.container-header-container {
   width: 1158px;
   display: flex;
   flex-direction: row;
