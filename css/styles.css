@@ -124,7 +124,7 @@ nav {
   flex-direction: row;
   gap: 40px;
   align-items: center;
-  padding-right: 332px;
+  margin-right: 332px;
 }
 .header .list {
   display: flex;
