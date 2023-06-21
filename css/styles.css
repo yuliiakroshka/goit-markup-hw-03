@@ -298,6 +298,7 @@ footer.link-logo {
   margin-bottom: 16px;
 }
 .footer.container {
+  display: flex;
   margin-left: 156px;
 }
 
