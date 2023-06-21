@@ -117,7 +117,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 0 24px;
+  margin: 0 24px;
 }
 nav {
   display: flex;
