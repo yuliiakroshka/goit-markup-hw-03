@@ -329,7 +329,7 @@ nav {
 .list-row {
   list-style: none;
   text-decoration: none;
-  row-gap: 48px;
+
   column-gap: 24px;
   padding-left: 0;
 }
