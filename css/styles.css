@@ -90,12 +90,14 @@ a {
 }
 
 /*Header section*/
-.container-header-container {
+.header-container {
   width: 1158px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 header.list {
   display: flex;
