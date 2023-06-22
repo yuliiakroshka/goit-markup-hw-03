@@ -147,7 +147,7 @@ nav {
 }
 .link-logo {
   display: inline-block;
-  margin: 0 76px 0 0;
+  margin-right: 76px;
 }
 .container.nav {
   display: flex;
