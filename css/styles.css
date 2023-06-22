@@ -93,10 +93,9 @@ a {
 /*Header section*/
 .header-container {
   width: 1158px;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
-
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -145,8 +144,7 @@ nav {
   padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
-.header.link-logo {
-  display: inline-block;
+.link-logo {
   margin-right: 76px;
 }
 .container.nav {
