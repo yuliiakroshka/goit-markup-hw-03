@@ -169,6 +169,7 @@ nav {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
+  margin-bottom: 50px;
 }
 .button-hero {
   background-color: #4d5ae5;
@@ -298,7 +299,6 @@ footer.link-logo {
   margin-bottom: 16px;
 }
 .footer.container {
-  display: flex;
   margin-left: 156px;
 }
 
