@@ -103,6 +103,7 @@ a {
 
 .address {
   font-style: normal;
+  align-items: center;
 }
 
 .address a {
@@ -124,6 +125,7 @@ nav {
   flex-direction: row;
   gap: 40px;
   align-items: center;
+  padding-left: 136px;
 }
 .header .list {
   display: flex;
