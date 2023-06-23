@@ -294,6 +294,7 @@ nav {
 .footer-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .footer.link-logo {
@@ -302,11 +303,7 @@ nav {
 .footer.container {
   margin-left: 156px;
 }
-.footer-div {
-  display: flex;
-  width: 264px;
-  padding-left: 156px;
-}
+
 /*Portfolio*/
 
 .buttons {
