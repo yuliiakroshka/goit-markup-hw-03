@@ -18,6 +18,11 @@ body {
   font-style: normal;
   text-decoration: none;
   margin: 0;
+  display: flex;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
 }
 h1,
 h2,
@@ -127,7 +132,6 @@ nav {
   flex-direction: row;
   gap: 40px;
   align-items: center;
-  padding-left: 156px;
 }
 .header .list {
   display: flex;
@@ -138,6 +142,7 @@ nav {
 }
 .header a {
   padding: 24px 0;
+  align-items: center;
 }
 .span-studio {
   color: #2e2f42;
@@ -146,8 +151,9 @@ nav {
   padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container.link-logo {
+.header .link-logo {
   margin-right: 76px;
+  margin-left: 156px;
 }
 .container.nav {
   display: flex;
