@@ -301,7 +301,7 @@ nav {
   align-items: flex-start;
 }
 
-.footer.link-logo {
+.footer .link-logo {
   display: flex;
   margin-bottom: 16px;
   font-size: 18px;
