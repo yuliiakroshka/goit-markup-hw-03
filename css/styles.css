@@ -295,10 +295,13 @@ nav {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  align-items: flex-start;
 }
 
 .footer.link-logo {
+  display: flex;
   margin-bottom: 16px;
+  font-size: 18px;
 }
 .footer.container {
   margin-left: 156px;
