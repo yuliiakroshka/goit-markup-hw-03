@@ -145,7 +145,7 @@ nav {
   padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
-.link-logo {
+.header-container.link-logo {
   margin-right: 76px;
 }
 .container.nav {
@@ -301,7 +301,9 @@ nav {
 .footer.container {
   margin-left: 156px;
 }
-
+.footer-div {
+  display: flex;
+}
 /*Portfolio*/
 
 .buttons {
