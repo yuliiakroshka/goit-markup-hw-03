@@ -104,6 +104,7 @@ a {
 .address {
   font-style: normal;
   align-items: center;
+  padding: 24px 0;
 }
 
 .address a {
@@ -381,4 +382,10 @@ nav {
 }
 .row-item {
   width: calc((100% - 48px) / 3);
+}
+.row-item.div {
+  padding-bottom: 32px;
+}
+.row-item.img {
+  padding-bottom: 32px;
 }
