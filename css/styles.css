@@ -110,6 +110,7 @@ a {
 .address a {
   color: #434455;
   margin-top: 24px;
+  align-items: center;
 }
 .nav > a {
   font-family: "Raleway", sans-serif;
@@ -126,7 +127,7 @@ nav {
   flex-direction: row;
   gap: 40px;
   align-items: center;
-  padding-left: 136px;
+  padding-left: 156px;
 }
 .header .list {
   display: flex;
@@ -303,6 +304,8 @@ nav {
 }
 .footer-div {
   display: flex;
+  width: 264px;
+  padding-left: 156px;
 }
 /*Portfolio*/
 
